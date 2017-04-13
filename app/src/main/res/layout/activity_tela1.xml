@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.facisa.oliver.protocolofacisa.Tela1"
+    android:columnCount="4"
+    android:rowCount="10">
+
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de Entrada:"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_column="0"
+        android:text="Nome:" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_column="0"
+        android:text="Matricula:" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_column="0"
+        android:text="Curso:" />
+
+    <EditText
+        android:id="@+id/editText26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_column="0"
+        android:text="CPF:" />
+
+    <EditText
+        android:id="@+id/editText27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_column="0"
+        android:text="Email:" />
+
+    <EditText
+        android:id="@+id/editText28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_column="0"
+        android:text="Telefone:" />
+
+    <EditText
+        android:id="@+id/editText29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:layout_column="1"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_column="0"
+        android:text="Ingresso:" />
+
+    <EditText
+        android:id="@+id/editText30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/checkBox23"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:text="Prouni" />
+
+    <CheckBox
+        android:id="@+id/checkBox24"
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:text="Bolsista" />
+
+    <CheckBox
+        android:id="@+id/checkBox22"
+
+        android:layout_gravity="right"
+        android:text="Fies" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_column="0"
+        android:text="Turno:" />
+
+    <RadioButton
+        android:id="@+id/radioButton13"
+        android:layout_column="0"
+        android:text="Manha" />
+
+    <RadioButton
+        android:id="@+id/radioButton14"
+        android:layout_column="0"
+        android:text="Tarde" />
+
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_column="0"
+        android:text="Noite" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_columnSpan="4"
+        android:layout_gravity="right"
+        android:onClick="Proximo"
+        android:text="Proximo" />
+
+</GridLayout>
